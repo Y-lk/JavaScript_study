@@ -2,7 +2,7 @@
 
 //const obj = new Object(); Устаревшее объявление объекта.
 
-const options = {
+const options1 = {
   name: "test",
   width: 1024,
   height: 1024,
@@ -12,7 +12,7 @@ const options = {
   }
 };
 
-console.log(Object.keys(options).length);
+console.log(Object.keys(options1).length);
 
 // console.log(options.name);
 
@@ -36,7 +36,7 @@ console.log(Object.keys(options).length);
 
 //   console.log(counter);
 
-const options = {
+const options2 = {
   name: "test",
   width: 1024,
   height: 1024,
@@ -49,4 +49,7 @@ const options = {
   }
 };
 
-options.makeTest();
+options2.makeTest();
+
+const {border,bg} = options2.colors;
+console.log(border);
