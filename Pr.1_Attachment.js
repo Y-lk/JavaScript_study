@@ -11,9 +11,9 @@ const personalMovieDB = {
     privat: false
 };
 
-const a = prompt("How did you watch last film?", ""),
+const a = prompt("What have you watched last film?", ""),
       b = prompt("Please,give the rating this film.", ""),
-      c = prompt("How did you watch last film?", ""),
+      c = prompt("What have you watched last film?", ""),
       d = prompt("Please,give the rating this film.", "");
 
       personalMovieDB.movies[a] = b;
