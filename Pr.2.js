@@ -28,7 +28,7 @@ const personalMovieDB = {
 
 
 for (let i = 0; i < 2; i++){
-    const a = prompt("How did you watch last film?", ""),
+    const a = prompt("What have you watched last film?", ""),
           b = prompt("Please,give the rating this film.", "");
 
     if(a != null && b != null && a != "" && b != "" && a.length < 50 && b.length < 50)
