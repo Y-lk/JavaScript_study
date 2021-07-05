@@ -16,7 +16,7 @@ const box = document.getElementById("box"),
 // circles[1].style.backgroundColor = "red";
 
 // for(let i = 0; i < hearts.length; i++){
-//   hearts[i].style.backgroundColor = "green";
+//   hearts[i].style.backgroundColo r = "green";
 // }
 
 // hearts.forEach(element => {
