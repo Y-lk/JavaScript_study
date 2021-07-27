@@ -16,8 +16,6 @@ console.log(2 && 1 && null && 0 && undefined);
 // "И" запинается на лжи.
 // "ИЛИ" запинается на правде.
 
-//console.log(!!( 1 && 2 ) === (1 && 2)); // false
-
 alert( null || 2 && 3 || 4 ); //3
 
 const a = [1, 2, 3]; 
@@ -28,4 +26,3 @@ alert( +"Infinity" ); // infinity
 
 console.log("Ёжик" > "яблоко"); // false
 
-//console.log(0 || "" || 2 || undefined || true || falsе ); //2
